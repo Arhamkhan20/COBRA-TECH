@@ -1,4 +1,4 @@
-# Welcome to [Your Music Website Name]
+# Welcome to COBRA TECH MUSIC INDUSTRIES
 
 ## Overview:
 This repository contains a collection of 10 amazing songs curated for your listening pleasure. Each song has been carefully selected to provide a diverse and enjoyable musical experience.
