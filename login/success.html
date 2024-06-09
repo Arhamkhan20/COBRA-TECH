@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-wrapper">
+    <div class="login-container">
+        <h2>Login to access your favorite music</h2>
+        <div class="input-field">
+            <input type="text" id="username" placeholder="Username" class="input">
+        </div>
+        <div class="input-field">
+            <input type="password" id="password" placeholder="Password" class="input">
+        </div>
+        <div class="btn"><a href="#" onclick="login()">Log In</a></div>
+    </div>
+</div>
+
+<div class="container" style="display:none;">
+    <!-- Your music player content here -->
+</div>
+
+<script>
+    function login() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        if (username === "abcde" && password === "123") {
+            alert("Login successful!");
+            document.querySelector('.login-wrapper').style.display = 'none';
+            document.querySelector('.container').style.display = 'block';
+        } else {
+            alert("Invalid username or password.");
+        }
+    }
+</script>
+
+</body>
+</html>
